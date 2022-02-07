@@ -27,7 +27,7 @@
             </ol>
            
             <a href="#Top">Link to top</a> 
-        </div>
+        </div> <hr>
         
 
         <div id="Exercise_2"><p>Exercise #2</p>
@@ -37,7 +37,7 @@
            
             <a href="#Top">Link to top</a> 
 
-        </div>
+        </div><hr>
         
         
         <div id="Exercise_3"><p>Exercise #3</p>
@@ -54,7 +54,7 @@
             <a href="https://th.wikipedia.org/wiki/%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A5%E0%B8%9E%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5" target="_blank">Link to Wikipedia</a> 
           
             <br><a href="#Top">Link to top</a> 
-        </div>
+        </div><hr>
         
         
         <div id="Exercise_4"><p>Exercise #4</p>
@@ -67,7 +67,7 @@
                 <a href="https://husbandandwifeshop.com/products/lomography-color-negative-400-35mm" target="_blank">สั่งซื้อคลิก</a> 
             
                 <br><a href="#Top">Link to top</a> 
-        </div>  
+        </div><hr>
         
         
         <div id="Exercise_5"><p>Exercise #5</p> 
@@ -83,7 +83,7 @@
             </ul>
 
             <br><a href="#Top">Link to top</a>   
-        </div>
+        </div><hr>
        
         
         <div id="Exercise_6"><p>Exercise #6</p>
@@ -94,26 +94,49 @@
                     <label for="Last_name">Lasntame*:</label>
                     <input type="text" id="Last_name" name="Last name"  value="Last Name" required/><br>
                     
-                    <p>Address</p>
+                    <p>Address*:</p>
+                    <label for="ที่อยู่">บ้านเลขที่</label>
                     <input type="text" id="ที่อยู่" name="ที่อยู่"  value="ที่อยู่" size="10" required/> 
-                    <input type="text" id="ตำบล" name="ตำบล"  value="ตำบล" size="20" required/>
-                    <input type="text" id="อำเภอ" name="อำเภอ"  value="อำเภอ" size="20" required/>
-                    <input type="text" id="จังหวัด" name="จังหวั"  value="จังหวัด" size="20" required/>
-
+                        
+                    <label for="ตำบล">ตำบล:</label>
+                        <select name="ตำบล" id="ตำบล" required>
+                            <option value="">--Please choose an option--</option>
+                             <option value="เขาสามยอด">เขาสามยอด</option>
+                            <option value="เขาพระงาน">เขาพระงาน</option>
+                        </select>
+                    
+                     <label for="อำเภอ">อำเภอ:</label>
+                         <select name="อำเภอ" id="อำเภอ" required>
+                            <option value="">--Please choose an option--</option>
+                            <option value="เมือง">อำเภอเมือง</option>
+                            <option value="โคกสำโรง">โคกสำโรง</option>
+                    </select>
+                    
+                    <label for="จังหวัด">จังหวัด:</label>
+                    <select name="จังหวัด" id="จังหวัด" required>
+                        <option value="">--Please choose an option--</option>
+                        <option value="ลพบุรี">สระบุรี</option>
+                        <option value="สระบุรี">สระบุรี</option>
+                    </select>
+                    
 
                     <p>Gender</p>
-                    <label for="Male">Male</label>
-                    <input value="Male" type="radio" id="Male" name="Gender" > <br>           
+                    <input value="Male" type="radio" id="Male" name="Gender" > 
+                    <label for="Male">Male</label>                              
+                    <input type="radio" id="Female" name="Gender" value="Female"> 
                     <label for="Female">Female</label>  
-                    <input type="radio" id="Female" name="Gender" value="Female"> <br>
-                    <label for="LGBTQ+">LGBTQ+</label>  
                     <input type="radio" id="LGBTQ+" name="Gender" value="LGBTQ+"> 
-
-                    <br><input type="button"  value="พิมพ์เสร็จก็กดสิ!!">
+                    <label for="LGBTQ+">LGBTQ+</label>  
+                    <p>
+                        
+                    </p>
+                    <br>
+                    <label for="button">กดจ้า</label>  
+                    <input type="button"  value="พิมพ์เสร็จก็กดสิ!!">
             </form>
 
             <br><a href="#Top">Link to top</a>
-        </div>
+        </div><hr>
     </body>
 
 </html>
