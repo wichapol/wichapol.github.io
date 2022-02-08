@@ -1,11 +1,24 @@
 body{
   font-family: 'Kanit', sans-serif;
 }
+
+
 /*---- Common ----*/
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.section{
+  margin-bottom: 64px;
+}
 .section-title {
   font-size: 32px;
   font-weight: 600;
+  margin-bottom: 24px;
 }
+
 
 /*---- Menu ----*/
 
@@ -14,17 +27,21 @@ body{
   background-image: url('../images/hero-background.jpg'); /* Photo by Nicholas Kampouris on Unsplash */
   background-size: cover;
   background-position: center center;
+  height: 720px;
 }
 
 .hero-title {
   font-size: 64px;
   font-weight: 600;
+  padding-top: 128px;
 }
 
 /*---- Collection Section ----*/
 .collection-item {
   background-size: cover;
   background-position: 50% 82%;
+  border-radius: 8px;
+  padding: 24px; 
 }
 
 .collection-item-one {
@@ -56,14 +73,33 @@ body{
 }
 
 .collection-item-title{
+  margin-bottom: 12px;
   font-size: 20px;
   font-weight: 600;
 }
 
 /*---- Product Section ----*/
-.product-item-title {
-  font-size: 18px;
-  font-weight: 600;
+.product-item{
+  margin-bottom: 16px;
 }
 
+.product-item-image{
+  font-size: 18px; 
+  font-weight: 600;
+  width: calc(100% / 3);
+  border-radius: 18px;
+  margin-bottom: 12px;
+}
+
+.product-item-title {
+  font-size: 18px;
+  font-weight: 600; 
+  margin-bottom: 8px;
+}
+
+.price{
+  margin-top: 24px;
+}
+
+.
 /*---- About Section ----*/
