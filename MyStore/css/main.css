@@ -120,16 +120,15 @@ body{
   font-weight: 600;
   border-radius: 18px;
   margin-bottom: 12px;
+}
 
 .product-item-title{
   font-size: 18px;
-  font-weight: 600; 
-  margin-bottom: 8px;
+  font-weight: 600;margin-bottom: 8px;
 }
 
 .price{
   margin-top: 24px;
 }
 
-.
 /*---- About Section ----*/
