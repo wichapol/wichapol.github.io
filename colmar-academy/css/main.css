@@ -1,4 +1,33 @@
-*{
- font-family: font-family: 'Atkinson Hyperlegible', sans-serif;
+body{
+ font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px 0px;
+  }
+
+.header{
+      display: flex;
+      justify-content: space-between;
+     
+  }
+
+.head-logo{
+      display: flex;
+      align-content: center;    
+      width: 50%;
+      align-items: center;
+  }
+
+  .nav-1{
+      display: flex;
+      justify-content: flex-end;
+  }
+
+.nav-item{
+    display: block;
+    margin: 0.5em;
+}
