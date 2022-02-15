@@ -27,6 +27,13 @@
     box-sizing: border-box;
 }
 
+.head-t {
+    font-size: 2em;
+    font-weight: bolder;
+    color: var(--primary-navfooter-color);
+
+}
+
 /*
 วิธีใช้
 li{
