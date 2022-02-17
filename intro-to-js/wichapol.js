@@ -8,5 +8,5 @@ function askMyName () {
 
 function helloWorld() {
     const h1message = document.getElementById("what-my-name").innerHTML 
-       alert(h1message + 'งดแปลว่ายังทำได้อยู่')
+       alert(h1message + '  งดแปลว่ายังทำได้อยู่')
     }
