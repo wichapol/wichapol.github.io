@@ -7,18 +7,27 @@
     <title>intro-to-js</title>
 
      <!-- Style CSS -->
-     <link rel="stylesheet" href="./src/style/style.css" />
+     <!-- <link rel="stylesheet" href="./src/style/style.css" /> -->
 
      <!-- Main CSS -->
      <link rel="stylesheet" href="./src/style/main.css" />    
  
 </head>
 <body>
-    <h1 id="what-my-name">My name is </h1>
-    <button onclick="askMyName()">Ask My name</button>
-    <button onclick="helloWorld()">Hello world</button>
-    <script src="wichapol.js"></script>
+    <div class="container">
+        <h1 id="what-my-name">My name is </h1>
+        <div>
+            <button onclick="askMyName()">Ask My name</button>
+            <button onclick="helloWorld()">Hello world</button>
+        </div>
+    </div>
+     <p id="cal-age"></p>
+    <button onclick="calAge()">function calAge()</button> 
     
-
+    <p><strong>Name:</strong><p id="my-name"></p></p>
+    <p><strong>Province:</strong><p id="my-province"></p></p>
+    <button onclick="loadProfile()">Load Profile</button>
+    
+    <script src="wichapol.js"></script>
 </body>
 </html>
