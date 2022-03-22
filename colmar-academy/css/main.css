@@ -1,11 +1,12 @@
 *{
     font-family: 'Atkinson Hyperlegible', sans-serif;
+    
 }
 
 
 body{
-    background-color: #ffffff;
-    max-width: 1800px;
+    background-color: #f3f5f5;
+    max-width: 1200px;
     display: block;
     margin:0 auto;
 }
@@ -30,17 +31,26 @@ h2{
 }
 
 h3{
-    font-size: 30px;
-    color: #4a4a4a;
+    font-size: 28px;
+    color: #646464;
     margin: 16px 0px;
 }
 p{  
-    font-size: 20px;
+    font-size: 16px;
     margin: 8px 0px;
-    color: #525252;
+    color: #a1a1a1;
 }
 
+hr {
+    padding: 0px;
+    margin: 0px;
+}
 
+a {
+    text-decoration:none ;
+    margin: 8px 0px;
+    color: #a1a1a1;
+ }
 
 
   /* header */
@@ -50,7 +60,8 @@ p{
       box-sizing: border-box;  
       align-items: center;
       height: 64px;
-      padding: 0px 24px;    
+      padding: 0px 24px;   
+      background-color: ; 
       /* height: 64px; */
   }
 
@@ -62,11 +73,9 @@ p{
 
   }
 
-  .nav-1{
+.nav-1{
       display: flex;
-      justify-content: flex-end;
-      
-      
+      justify-content: flex-end;          
   }
 
 .nav-item{
@@ -182,7 +191,7 @@ p{
 } */
 
 .info-item-1-1 p  {
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
     
 .info-item-2{
@@ -202,7 +211,10 @@ p{
     border-left: 0.5px solid   #d8d8d8;
     border-right: 0.5px solid  #d8d8d8 ;
     border-bottom: 0.5px solid #d8d8d8 ;
+}
 
+.info-item-2-1 a{
+    color: rgb(26, 144, 223);
 }
 
 .info-ima{
@@ -254,13 +266,13 @@ p{
     width: 100%;
 }
 
-.course-cade{
+.course-card{
     /* border: 2px solid rgb(255, 32, 2); */
     background-color: #ffffff;
     box-sizing: border-box;
     width: calc(100% /3) 
 }
-.course-cade  img {
+.course-card  img {
     display: block;
     box-sizing: border-box;
     width: 100%;
@@ -268,9 +280,89 @@ p{
     justify-self: center;
  }
 
- .course-cade div {
+ .course-card div {
     /* border: 2px solid rgb(103, 255, 2); */
     box-sizing: border-box;
-    padding: 0px 16px 24px 16px;
+    padding: 0px 16px 24px 16px;  
    
  }
+
+ /* Thesis exhibit */
+
+ .thesis-exhibit {
+    /* border: 2px solid rgb(255, 2, 2); */
+    box-sizing: border-box;
+    padding: 32px 0px 24px 24px;
+    display: block;
+    margin:0 auto;
+ }
+
+ .thesis-exhibit h2 {
+    text-align: center;
+    padding-bottom: 32px ;
+ }
+
+ .thesis-exhibit-content{
+    /* border: 2px solid rgb(2, 255, 44); */
+    display: flex;
+    justify-content: space-between;
+    background-color:#f3f5f5 ;
+    width: 100%;
+    gap: 24px;
+ }
+
+.content-video{
+    /* border: 2px solid rgb(255, 103, 2); */
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-direction: column;   
+    width: calc(100% * 0.6);
+    /* padding: 0px 24px ; */
+}
+
+.content-exhibit{
+    /* border: 2px solid rgb(48, 2, 255); */
+    width: calc(100% * 0.4);
+    box-sizing: border-box;
+    display: flex;    
+    flex-direction: column;
+}
+
+.exhibit-card{
+    /* border: 2px solid rgb(255, 2, 179); */
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 16px 0px 16px 16px;
+    gap: 16px;
+}
+
+
+
+.exhibit-card img {
+    display: block;
+    box-sizing: border-box;
+    width: calc(100% * 0.35);
+    height: fit-content;
+}
+
+.card-bg{
+    background-color: #d8d8d8;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 16px 24px;
+    height: 60px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 16px;
+
+}
