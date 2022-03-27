@@ -1,26 +1,325 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
-<html>
-  <head>
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://unpkg.com/reset-css@5.0.1/reset.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>J.Wichapol</title>
-    <link rel="shortcut icon" href="./src/img/icon/favicon.png" type="img/icon/favicon-W.png">
-	  <link rel="icon" href="./src/img/icon/favicon.png" type="img/icon/favicon-W.png">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,600;1,300;1,900&display=swap" 
-  rel="stylesheet">
-    <!-- Style -->
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
 
-    <!-- Font Awesome CSS - Icon Pack -->
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
-  </head>
-  <body>
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Wichapol Jaimaung</h1>
+            <h2>Proud to Present</h2>
+            <div class="social-links">
+                <ul>
+                    <li>
+                        <i class="fa  fa-mobile-phone fa-lg" aria-hidden="true"> +66 63 951 7178</i>
+                    </li>
+                    <li>
+                        <i class="fa  fa-envelope fa-lg" aria-hidden="true"> wichapol.cosr@gmail.com</i>
+                    </li>
+                    <li>
+                        <i class="fa  fa-map-marker fa-lg" aria-hidden="true"> Loburi Thailand</i>
+                    </li>
+                    <li>
+                        <a href="https://github.com/wichapol?tab=repositories" target="bank"><i
+                                class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/j-wichpon/" target="bank"><i class="fa fa-linkedin fa-lg"
+                                aria-hidden="true"></i></a>
+                </ul>
+            </div>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/IMG_938-01.png" class="about-img" />
+                </div>
+                <div class="col-md-8">
+                    <h2 class="heading fornt-weight">About Me</h2>
+                    <p>
+                        I had experienced 4 years in the healthcare industry.
+                        Working with multidisciplinary and collaboration to achieve project goals.
+                        Now I have to start a new journey migrate to a software developer career.
+                        I'm learning technical skills and soft skills in Bootcamp at generation Thailand via a 3-month.
+                        I'm persistent in learning new skills. I had responsibility and high problem-solving skills.
+                        Always a great team player.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading fornt-weight">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="August 2021 – December 2022">
+                <h3>Project management coordinator </h3>
+                <h4>Synphaet.co ltd Aug. 2021 - Dec.2021</h4>
+                <ul>
+                    <li>Developed project scopes, objectives and created schedules of projects.</li>
+                    <li>Coordinated bidding, qualifications processes to select the company service
+                        providers that related to the project. Negotiated about contracts and monitor
+                        contract compliance, made an appointment to arrange a meeting.
+                        Prepared documents that were relevant to the process (TOR, LOI, Sorry letter, etc.).
+                    </li>
+                    <li>Analyzed project performance to follow up the progress and fixed problems.
+                        Oversee all aspects of the projects to ensure that all projects are delivered on time,
+                        within scope and budget, and variation process order as well.
+                    </li>
+                    <li>Prepare documents for presentation, approval, and project management progresses reports.</li>
+                </ul>
+            </div>
+
+
+            <div data-date="	November 2017 – July 2021">
+                <h3>Architect</h3>
+                <h4>King Narai hospital Nov. 2017 - Jul. 2021</h4>
+                <ul>
+                    <li>
+                        Conduct information and surveys on building and facility improvement requirements from the
+                        agency to prepare a yearly budget plan for the construction and renovation of buildings.
+                    </li>
+                    <li>
+                        Collaboration with project stakeholders to come up with guidelines and conclusions for
+                        design and development.
+                    </li>
+                    <li>
+                        Design, drawing, Coordinated and preparation of the middle price and of the
+                        employment area related to procurement.
+                    </li>
+                    <li>
+                        Attend in solving problems air indoor quality management as well as conducting research studies
+                        to find ways to inform decision improve air indoor quality.
+                    </li>
+                </ul>
+            </div>
+
+            <div data-date="August 2016 – November 2017">
+                <h3>3D Modeler & Designer</h3>
+                <h4>A R C H I T I S S(freelance)Aug 2016 - Nov 2017</h4>
+                <ul>
+                    <li>
+                        Created and edited a 3D architectural model with 3D Modeling Software from the client's
+                        requirements.
+                    </li>
+                    <li>
+                        Received requirements from the clients, researched and analyzed all data related to the project
+                        to design.
+                    </li>
+                    <li>
+                        Prepared documents to present designs to clients.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading fornt-weight">Training</h2>
+        <div class="education-block">
+            <h3>Generation Thailand</h3>
+            <span class="education-date">Jan.-Apr. 2022</span>
+            <h4>Junior software developer </h4>
+        </div>
+        <!-- End .education-block -->
+        <h2 class="heading fornt-weight">Education</h2>
+        <div class="education-block">
+            <h3>King Mongkut's Institute of Technology Ladkrabang</h3>
+            <span class="education-date">May. 2011 - May. 2016</span>
+            <h4>Bachelor Of Science in Industrial Education</h4>
+            <ul>
+                <li>
+                    Major Architecture.
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading fornt-weight">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Project 1.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Colmar Academy</h3>
+                        <h4>HTML CSS</h4>
+                        <p>
+                            The first assignment After I'm learning about HTML and CSS on 4 days. In this project, I
+                            implement the website specified by the wireframes to create the landing page for a new
+                            school Colmar Academy.
+                        </p>
+                        <a href="https://wichapol.github.io/colmar-academy/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Project 2.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Find Your Hat</h3>
+                        <h4>Javascript</h4>
+                        <p>
+                            The second assignment After I'm learning about Javascript on 7 days. In this project, I'm
+                            building an interactive terminal game. The scenario is that the player has lost their hat in
+                            a field full of holes, and they must navigate back to it without falling down one of the
+                            holes or stepping outside of the field.
+                        </p>
+                        <a href="https://replit.com/@wichapol/wichapolFind-Your-Hat">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Project 3.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Jammming</h3>
+                        <h4>React.JS</h4>
+                        <p>
+                            The third assignment After I learned about ReactJS in 7 days. In this project, I build a
+                            React web application called Jamming. I use knowledge of React components, passing state, to
+                            build a website that allows users to search the Spotify library, create a custom playlist,
+                            then save it to their Spotify account.
+                        </p>
+                        <a href="https://github.com/wichapol/jsd-jamming-assessment.git">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading fornt-weight">Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <Li>Auto CAD</Li>
+            <Li>Sketch Up</Li>
+            <Li>Enscape</Li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+    <!-- <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div> -->
+    <!-- End #contact-form -->
+    <!-- </div> -->
+    <!-- End #contact -->
+    <footer>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> Wichapol
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/wichapol?tab=repositories/" target="_blank"><i
+                                    class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/j-wichpon/" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>

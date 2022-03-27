@@ -38,7 +38,7 @@ label{
     /* border: 2px solid rgb(47, 0, 255); */
 }
 
-.sing-in{
+.log-in{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -49,11 +49,11 @@ label{
 
 }
 
-.sing-in input{
+.login input{
     border-bottom: 1px solid #9c9c9c;
 }
 
-.button-sing-in {
+.button-login {
     align-self: center;
     border: none;
     border-radius: 10px;
