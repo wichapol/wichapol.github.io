@@ -362,6 +362,15 @@ footer {
   color: #fff;
 }
 
+#lead-content button{
+  background-color: white;
+  border: none;
+  font-size: 1em;
+  color: var(--third-text-color);
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);;
+}
+
 #lead-overlay {
   position: absolute;
   height: 100%;
