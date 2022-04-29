@@ -754,6 +754,8 @@ footer {
 }
 
 #skills {
+  display: flex;
+  justify-content: space-between;
   padding: 50px 15px;
   text-align: center;
 }
@@ -767,7 +769,7 @@ footer {
   display: block;
   margin: 0 auto;
   padding: 0;
-  max-width: 500px;
+  /* max-width: 500px; */
 }
 
 #skills li {
@@ -1059,6 +1061,24 @@ footer {
     transform: none;
   }
 
+  #skills{
+    flex-direction: column;
+    gap: 50px;
+  }
+  #skills h2 {    
+    margin-bottom:50px;
+  }
+
+  #skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    
+  }
+  
+
   footer {
     text-align: center;
 
@@ -1091,6 +1111,25 @@ footer {
     height: 100%;
     padding: 10px;
   }
+
+  #skills{
+    flex-direction: column;
+    gap: 50px;
+  }
+  #skills h2 {    
+    margin-bottom:50px;
+  }
+
+  #skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    
+  }
+  
+
+
 
 
 }
